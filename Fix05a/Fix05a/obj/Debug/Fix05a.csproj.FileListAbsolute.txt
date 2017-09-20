@@ -1,0 +1,6 @@
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\bin\Debug\Fix05a.exe.config
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\bin\Debug\Fix05a.exe
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\bin\Debug\Fix05a.pdb
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\obj\Debug\Fix05a.csprojResolveAssemblyReference.cache
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\obj\Debug\Fix05a.exe
+c:\users\gambi\documents\visual studio 2017\Projects\Fix05a\Fix05a\obj\Debug\Fix05a.pdb
