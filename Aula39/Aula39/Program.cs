@@ -25,26 +25,12 @@ namespace Aula39
                 char ch = char.Parse(Console.ReadLine());
                 if (ch == 'r')
                 {
-                    Console.Write("Largura: ");
-                    double largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Altura: ");
-                    double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Cor: ");
-                    string cor = Console.ReadLine();
-                    Retangulo ret = new Retangulo(largura, altura, cor);
+                    Retangulo ret = Util.telaRetangulo();
                     listFiguras.Add(ret);
                 } else
                 {
-                    Console.Write("Lado A: ");
-                    double ladoA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Lado B: ");
-                    double ladoB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Lado C: ");
-                    double ladoC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Cor: ");
-                    string cor = Console.ReadLine();
-                    Triangulo ret = new Triangulo(ladoA, ladoB, ladoC, cor);
-                    listFiguras.Add(ret);
+                    Triangulo tri = Util.telaTriangulo();
+                    listFiguras.Add(tri);
                 }
                 Console.WriteLine();
             }
